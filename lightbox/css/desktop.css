@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.example-image {
+	filter: opacity(0.8) grayscale(100%);
+	transition: 0.4s;
+}
+.example-image:hover {
+	filter: opacity(1) grayscale(0%) drop-shadow(0 0 2px blue);
+	transform: scale(1.1);
+	position: relative;
+	z-index: 1;
+}
+.img-wrapper {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	display: inline-block;
+}
